@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The K-AutoCar</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg sticky-top top-0 ">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <div class="logo" data-aos="zoom-in">
+          <img src="assets/img/2024-pre.png" alt="">
+        </div>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item ms-2">
+            <a class="nav-link active text-white" aria-current="page" href="index.html">ទំព័រដើម</a>
+          </li>
+          <li class="nav-item dropdown ms-2">
+            <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              សេវាកម្ម
+            </a>
+            <ul class="dropdown-menu ">
+              <li>
+                <a class="dropdown-item text-white nav-link" href="assets/page/sell.html ">ទិញ-លក់<i class="bi bi-three-dots ms-auto m"></i></a></li>
+              <li><a class="dropdown-item text-white nav-link" href="#">សេវាកម្មជួល<i
+                    class="bi bi-three-dots ms-auto m"></i></a></li>
+              <li><a class="dropdown-item text-white nav-link" href="#">ការថែទាំ <i
+                    class="bi bi-three-dots ms-auto m"></i></a></li>
+              <li><a class="dropdown-item text-white nav-link" href="#">ការធានារ៉ាប់រ៉ង <i
+                    class="bi bi-three-dots ms-auto m"></i></a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown ms-2">
+            <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              ប្រភេទរថយន្ត
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item text-white nav-link" href="#">រថយន្តក្នុងស្រុក <i
+                    class="bi bi-three-dots ms-auto m"></i></a></li>
+              <li><a class="dropdown-item text-white nav-link" href="#">ការនាំចូល <i
+                    class="bi bi-three-dots ms-auto"></i> </a></li>
+            </ul>
+          </li>
+          <li class="nav-item ms-2">
+            <a class="nav-link active text-white" aria-current="page" href="#">ការណែនាំ</a>
+          </li>
+          <li class="nav-item ms-2">
+            <a class="nav-link active text-white" aria-current="page" href="#">អំពីយើង</a>
+          </li>
+          <li class="nav-item ms-2">
+            <a class="nav-link active text-white" aria-current="page" href="aboutme.html">ទំនាក់ទំនង</a>
+          </li>
+        </ul>
+        <form class="d-flex " role="search">
+          <button class="btn btn-outline-primary" type="submit">
+            <div class="nav-link"></div>
+            <a class="text-decoration-none text-white nav-link" href="login.html">គណនី</a>
+          </button>
+        </form> 
+      </div>
+    </div>
+  </nav>
+  
+  <section>
+    <div class="container text-center mt-5"> 
+      <h1 style="color: red;  font-weight: bold; font-size: 40px;" data-aos="zoom-out">Build Your Dream Here!</h1>
+      <p style="font-size: 20px;" data-aos="zoom-out">Keep Your Vehicle Maintenance</p>
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="500">
+            <img src="https://wallpaperaccess.com/full/8928028.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="500">
+            <img src="https://wallpaperaccess.com/full/338543.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item"  data-bs-interval="500">
+            <img src="https://images.hdqwalls.com/wallpapers/porsche-carrera-911-black-f4.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item"  data-bs-interval="500">
+            <img src="https://www.imagetin.com/images/micksgarage-ie/646jk67ggt/8_2c4448.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item"  data-bs-interval="500">
+            <img src="https://images.hdqwalls.com/wallpapers/tesla-model-x-front-4k-5x.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+      </div>
+   
+       <div class="row mt-5">
+          <h1 class="text-start">ប្រភេទរថយន្តថ្មីៗ</h1>
+        <div class="col-12 col-sm-6 col-md-3 mb-3">
+          <div class="custom-box"  data-aos="fade-up" data-aos-duration="700">
+            <img src="https://cdn.pixabay.com/photo/2020/06/06/18/28/lexus-nx-5267710_1280.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3 mb-3">
+          <div class="custom-box"  data-aos="fade-up" data-aos-duration="700">
+            <img src="https://cdn.motor1.com/images/mgl/XE009/s1/2018-mercedes-benz-s-class-coupe.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3 mb-3">
+          <div class="custom-box"  data-aos="fade-up" data-aos-duration="700">
+            <img src="https://www.elcarrocolombiano.com/wp-content/uploads/2022/10/29102022-PORTADA-Toyota-Prius.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3 mb-3">
+          <div class="custom-box" data-aos="fade-up" data-aos-duration="700">
+            <img src="https://storage.googleapis.com/stateless-www-khmerdaily-com/2023/03/b5c3c61d-1afeatured.jpg" alt="">
+          </div>
+        </div>  
+        </div> 
+         <div class="row ">
+          <div class="col-12 col-sm-6 col-md-3 mb-3">
+            <div class="custom-box"  data-aos="fade-down" data-aos-duration="700">
+              <img src="https://xehay.vn/uploads/images/2021/3/02/Xehay-mg5-080920-6_result.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3 mb-3">
+            <div class="custom-box" data-aos="fade-down" data-aos-duration="700">
+              <img src="https://external-preview.redd.it/4mG0jozIV0W65_j3ZSDtdYhluD8A97BBOwLRdtpaArQ.jpg?auto=webp&s=ee7e9397c33ef6fcba1ea0883f9eb9a8a9f7b4eb" alt="">
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3 mb-3">
+            <div class="custom-box" data-aos="fade-down" data-aos-duration="700">
+              <img src="https://cdn.motor1.com/images/mgl/EjB3N/s1/land-rover-range-rover-sport-2021.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3 mb-3">
+            <div class="custom-box" data-aos="fade-down" data-aos-duration="700">
+              <img src="https://media.ed.edmunds-media.com/bmw/m3/2021/fe/2021_bmw_m3_actf34_fe_921202_1600.jpg" alt="">
+            </div>
+          </div>
+    </div>
+    </div> 
+    <div class="container mt-5">
+      <h1>ប្រភេទរថយន្ត WildTrak</h1>
+    </div>
+      <div class="container bg-body-tertiary rounded-2 banner">
+        <img src="assets/img/banner.jpg" alt="" class="w-100">
+      </div>
+  </section>
+  
+  <section>
+    <div class="container mt-5">
+      <div class="row g-2">
+        <div class="col-12 col-sm-6 col-md-6">
+          <div class="m-card p-5"  data-aos="fade-right"  data-aos-easing="ease-in-sine">
+            <h1><span style="color: red;">សួស្តី!</span> អតិថិជនជាទីស្នេហា! <br><br>
+              ខ្ញុំដឹងថា អ្នកទាំងអស់គ្នាចូលចិត្តរថយន្ត! ត្រូវអត់?</h1>
+             <p class="p-3" style="font-size: 20px;"></p>
+             <h5 class="mt-2"><span style="color:red">The K-AutoCar  នឹងធ្វើឱ្យក្តីស្រម៉ៃរបស់អ្នកក្លាយជាការពិត!!</span></h5>
+          </div>
+        </div> 
+        <div class="col-12 col-sm-6 col-md-6 ">
+          <div class="m-card" data-aos="fade-left"  data-aos-easing="ease-in-sine">
+            <h1 class="text-center p-5">តើហេតុអ្វីបានជា ត្រូវជ្រើសរើសពួកយើង?</h1>
+            <p class="p-2"><span style="color: red;">The K-AutoCar</span> គឺជាវេបសាយដំបូងគេបង្អស់ដែលត្រូវបានបង្កើតឡើងដោយមានការគាំទ្រយ៉ាងឃ្លាវក្លារពីសំណាក់អតិថិជនរបស់យើងកន្លងមក ព្រោះដើម្បីផ្តល់ភាពងាយស្រួលក្នុងការទិញ-លក់ និងបង់រំលស់បានទៀតផង។ ជាពិសេសទៅទៀតនោះ ពួកយើងក៏មានការធានារ៉ាប់រ៉ង និងសេវាកម្មមួយចំនួនផងដែរ។
+            ពួកយើងនឹងផ្តល់គុណភាពជាមួយនឹងការ ថែរទាំដល់លោកអ្នក!!</p>
+          </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  
+  <section>
+    <div class="container-lg mt-5 rounded-4" style="height: auto;background-color:rgb(130, 130, 130) ;box-shadow: 5px 5px 5px black;">
+      <div class="container ">
+        <div class="row d-flex justify-content-around">
+           <div class="col-12  col-md-6 col-sm-6">
+            <div class="p-5">
+              <div class="row">
+                <div class="col-12 col-md-6 col-sm-6">
+                 <div class="col-12 col-md-12">
+                  <img src="assets/img/2024-pre.png" alt="">
+                  <p style="margin-top: -5%; color: white; font-size: 20px;" class="text-center"><span style="color: red;">The K-AutoCar</span> <br>នឹងនៅជាមួយលោកអ្នក ដោយនាំមកនូវ ទំនុកចិត្ត គុណភាព និងភាពស៊ីវីល័យ។</p>
+                 </div>
+                </div>
+               </div>
+            </div> 
+           </div> 
+           <div class="col-12 col-md-6 col-sm-6 mt-3">
+            <div class="p-5">
+              <h3 class="mt-5 text-white text-center "> សំណួរភាគច្រើនដែលពួកយើងទទួលបានពីអតិថិជន</h3>
+              <div class="accordion accordion-flush mt-5 " id="accordionFlushExample">
+                <div class="accordion-item ">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                     ១. តើគួរជ្រើសរើសរថយន្តប្រភេទណាដែលសុីសាំងតិច?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      <span style="color: red;">*</span>ចំពោះប្រភេទរថយន្តដែលសុីសាំងតិច ខាងយើងខ្ញុំមានប្រភេទរថយន្តដូចជា៖ <br>
+                      <span style="color: red;">១.</span>រថយន្ត Hybrid: រថយន្តប្រភេទនេះប្រើប្រាស់ទាំងម៉ាស៊ីនសាំង និងថាមពលអគ្គិសនី អាចសន្សំសំចៃសាំងបានច្រើន។ <br>
+                      <span style="color: red;">២.</span>រថយន្តដែលមានប្រព័ន្ធ Stop-and-Start: ប្រព័ន្ធនេះអាចផ្ដាច់ម៉ាស៊ីនដោយស្វ័យប្រវត្តិ នៅពេលរថយន្តឈប់ចត ដូចជា Toyota, BMW , Mercedes-Benz , Audi និង Ford ជាដើម។<br>
+                      <span style="color: red;">៣.</span>រថយន្តប្រើប្រាស់ម៉ាស៊ីនតូច
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                     ២. តើអ្នកអាចពន្យល់ខ្ញុំអំពីការបង់រំលស់រថយន្តបានដែរឬទេ?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      <span style="color: red;">១</span> ការបង់រំលស់រយន្តគឺខាងយើងខ្ញុំតម្រូវឱ្យមាន អត្តសញ្ញាណបណ្ណ័, សៀវភៅគ្រួសារ(បើមាន), សំបុត្រការងារ(ដែលអាចធានាថាលោកអ្នកមានលិទ្ធភាពនូវក្នុងការបង់រំលស់), សាក្សីធានា​។<br>
+                      <span style="color: red;">២</span>  មួយវិញទៀតនៅក្នុងការបង់រំលស់យើងក៏មានការសាកសួរពីព័ត៍មានរបស់លោកអ្នកដូចជា៖ លោកអ្នកអាចរំលស់ជា ខែឬឆ្នាំ និងព័ត៌មានផ្សេងៗទៅតាមភាពជាក់ស្តែង។
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                     ៣. តើរថយន្តទាំងអស់នេះមានការធានាពីសំណាក់ក្រុមហ៊ុនទេ?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                     <span style="color: red;">*</span> រថយន្តទាំងអស់សុទ្ធតែមានការធានាពីសំណាក់ក្រុមហ៊ុនក៏ដូចជា ស្ថាបនិករបស់យើងផ្ទាល់ព្រោះដើម្បីធានាថា រថយន្តដែលទទួលបាននឹងមិនធ្វើឱ្យអតិថិជនរបស់យើងខកបំណងជាមួយនឹងកាធានា ៣ឆ្នាំទៅលើគ្រឿងបន្លាស់, ផ្នែកខាងក្នុងនិងខាងក្រៅដោយផ្តោតលើករណីសមស្របណាមួយ។
+                     ពួកយើងក៏មានការគាំទ្រយ៉ាងរឹងមាំពីសំណាក់ អតិថិជនកន្លងមកនិងក្រុមហ៊ុនធំៗជាច្រើនទូទាំងប្រទេសកម្ពុជា ព្រមទាំងបរទេសផងដែរដោយផ្អែកលើ គុណភាពនិងភាពស្មោះត្រង់ជាចំបង។
+                  </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseThree">
+                    ៤. ចំពោះថ្លៃកាតពន្ធ និងការចុះបញ្ជីតើអ្នកគិតក្នុងតម្លៃបែបណាទៅនឹងទីផ្សារបច្ចុប្បន្ន?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      ចំណុចមួយនេះគឺ ពិតជាមានសារៈសំខាន់មែនទែនដែលខាងយើងខ្ញុំមានការគិតគូរនិង ពិភាក្សាយ៉ាងល្អិតល្អន់ព្រោះថា ការធ្វើទីផ្សាររបស់យើងគឺតម្រូវទៅលើទីផ្សារបច្ចុប្បន្ន។ លោកអ្នកបានដឹងរួចមកហើយថា <span style="color: red;">The K-AutoCar</span> 
+                      យើងមានការទទួលស្គាល់ជាសកល ពោលទាំងក្នុងនិងក្រៅប្រទេស ដូច្នេះក្នុងចំណុចនេះយើងនឹងធានាជូបលោកអ្នកថា តម្លៃពន្ធនិងការចុះបញ្ជីគឺខាងយើងខ្ញុំមានការសាកសួរព័ត៌មាននិងសិក្សាយ៉ាងជ្រាលជ្រៅផងដែរ​។
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseThree">
+                     ៥. តើសេវាកម្មអ្វីខ្លះដែលយើងនឹងទទួលបានបន្ទាប់ពីទិញរថយន្តនេះ?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      ពិតប្រាកដណាស់រាល់អតិថិជននីមួយៗដែលបានឆ្លងកាត់ការសាកសួរអំពីរថយន្តគឺ តែងតែមិនភ្លេចនោះទេនូវសំណួរមួយនេះ។ <span style="color: red ;">The K-AutoCar</span> បានបំពេញនូវរាល់បំណងរបស់អតិថិជនដោយ មានការបន្ថែមនូវសេវាកម្មដូចជា Decor រថយន្ត,ការលាងសម្អាតរថយន្ត Free រយៈពេល១ខែ, ការថែរទាំរយថន្តរបស់លោកអ្នកជារៀងរាល់ ៣ខែម្តងដោយមានការ discount ១០% និង សេវាកម្មផ្សេងៗជាច្រើនទៀតផង។
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+        </div>
+       
+      </div>
+    </div>
+  </section>
+
+  <section class="cus-feedback">
+    <div class="container mt-5">
+      <h1 class="text-center">ខាងក្រោមនេះ គឺជាមតិកែលម្អដែលពួកយើងទទួលបានពីអតិថិជន</h1>
+      <div class="row d-flex justify-content-between mt-5">
+        <div class="ncard mb-3 border rounded shadow p-3" data-aos="zoom-in" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4 ">
+              <img src="./assets/img/mentor-img-1.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body p-2">
+                <h5 class="card-title bold">Mr. Phol Ly</h5>
+                <p class="card-text">
+                  ខ្ញុំមានអារម្មណ៌កក់ក្តៅណាស់ចំពោះការយកចិត្តទុកដាក់រថយន្តរបស់ខ្ញុំ ជាមួយសេវាកម្មល្អនិងតម្លៃសមរម្យ។
+                </p>
+                <p class="card-text">
+                  <small class="text-body-secondary">
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-geo-fill ms-5 text-danger"></i> Phnom Penh
+                    
+                  </small>
+                 </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="ncard mb-3 border rounded shadow p-3" data-aos="zoom-in" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4 ">
+              <img src="./assets/img/mentor-img-5.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body p-2">
+                <h5 class="card-title bold">Mr. Meng Tola</h5>
+                <p class="card-text">
+                  ខ្ញុំបានជួលរថយន្តពីខាងក្រុមហ៊ុនខ្ញុំឃើញថាសេវាកម្មមួយនេះល្អមែនទែនព្រោះមានទំនុកចិត្តខ្ពស់និងកក់ក្ដៅ និយាយអោយចំគឺ The K-AutoCar ជាជម្រើសទី១របស់ខ្ញុំ។
+                </p>
+                <p class="card-text">
+                  <small class="text-body-secondary">
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-geo-fill ms-5 text-danger"></i> Boeng Kak
+                    
+                  </small>
+                 </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="ncard mb-3 border rounded shadow p-3" data-aos="zoom-in" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4 ">
+              <img src="./assets/img/mentor-img-7.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body p-2">
+                <h5 class="card-title bold">Mr. Rey</h5>
+                <p class="card-text">
+                  ការធានារ៉ាប់រ៉ង សម្រាប់ខ្ញុំគឺជាផ្នែកមួយដ៏សំខាន់សម្រាប់ខ្ញុំនិងក្រុមគ្រួសារខ្ញុំ។ ក្រុមមហ៊ុនមានការធានារ៉ាប់រ៉ងចំពោះរថយន្តដែល
+                  ខ្ញុំបានទិញ ចំណុចមួយនេះធ្វើអោយខ្ញុំំពេញចិត្តណាស់។                </p>
+                <p class="card-text">
+                  <small class="text-body-secondary">
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-geo-fill ms-5 text-danger"></i> Kampong Cham
+                    
+                  </small>
+                 </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="ncard mb-3 border rounded shadow p-3" data-aos="zoom-in" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4 ">
+              <img src="./assets/img/mentor-img-4.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body p-2">
+                <h5 class="card-title bold">Kanha Lida</h5>
+                <p class="card-text">
+                  ចំពោះខ្ញុំជាមនុស្សស្រី ការថែទាំយាន្តយន្តពិតជាសំខាន់ណាស់។ ខ្ញុំបានជ្រើសរើសយក​ The K-AutoCar ព្រោះថាបទពិសោធន៌យូរឆ្នាំព្រមទាំងមានការធានាគួរជាទីទុកចិត្ត ដូច្នេះខ្ញុំគ្មានការព្រួយបារម្ភឡើយ។
+                </p>
+                <p class="card-text">
+                  <small class="text-body-secondary">
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-geo-fill ms-5 text-danger"></i> Phnom Penh
+                    
+                  </small>
+                 </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="ncard mb-3 border rounded shadow p-3" data-aos="zoom-in" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4 ">
+              <img src="./assets/img/mentor-img-8.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body p-2">
+                <h5 class="card-title bold">Heng Nita</h5>
+                <p class="card-text">
+                  ទំនុកចិត្តពិតជាសំខាន់ ខ្ញុំបានសម្រេចចិត្តទិញរថយន្តពី K-AutoCar ដោយទទួលបានកញ្ចប់សេវាកម្មពិសេសមួយគឺ ការធានារ៉ាប់រ៉ងចំពោះរថយន្ត។
+                  ខ្ញុំពិតជាមានការពេញចិត្តណាស់។
+                </p>
+                <p class="card-text">
+                  <small class="text-body-secondary">
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-geo-fill ms-5 text-danger"></i> Phnom Penh
+                  </small>
+                 </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="ncard mb-3 border rounded shadow p-3" data-aos="zoom-in" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4 ">
+              <img src="./assets/img/mentor-img-2.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body p-2">
+                <h5 class="card-title bold">Ms. Kaka</h5>
+                <p class="card-text">
+                ដើម្បីធានាសុខសុវត្ថិភាពដល់កូនៗតូចរបស់ខ្ញុំទើបខ្ញុំសម្រេចជ្រើសយក The K-AutoCar ដែលជាក្រុមហ៊ុនឈានមុខគេ, ខាង Service 
+                  បានផ្តល់ការប្រឹក្សាយ៉ាងកក់ក្តៅដល់នាងខ្ញុំ នាងខ្ញុំពិតជាមានការពេញចិត្តណាស់។
+                </p>
+                <p class="card-text">
+                  <small class="text-body-secondary">
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-geo-fill ms-5 text-danger"></i> Koh Kong
+                  </small>
+                 </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+
+      <div class="align-content-end btn text-end" style="margin-top: 3%; height: auto;">
+        <button class="button border-0 align-content-end">
+          See More
+          <svg class="icon" viewBox="0 0 24 24" fill="currentColor">
+            <path
+              fill-rule="evenodd"
+              d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z"
+              clip-rule="evenodd"
+            ></path>
+          </svg>
+        </button>
+        
+      </div>
+    </div>
+  </section> 
+  
+  <section class="contact">
+    <h1 class="p-5 text-center text-primary" style="text-shadow: 2px 2px 2px black ;">មើលបន្ថែមនៅខាងក្រោម</h1>
+    <div class="newcontainer-fluid p-4" style="margin-top: 3%;">
+      <div class="col-12 col-md-12">
+        <div style="width: 200px; height: 200px; margin-left: 40%;">
+          <img src="./assets/img/2024-pre.png" alt="">
+        </div>
+      </div>
+        <div class="row d-flex justify-content-start g-2">
+              <div class="col-lg-3 col-md-4 col-sm-4 mb-4">
+            <div class="box text-start">
+              <h3 class="text-primary">តំណរភ្ជាប់</h3>
+              <div class="main-box" style="width: 100px ;padding: 5px;">
+                  <li class="list-unstyled d-block text-start">
+                    <a class="nav-link-new text-decoration-none text-white mt-3" href="#">ចូលគណនី</a>
+                    <a class="nav-link-new text-decoration-none text-white mt-3" href="#">អំពីយើង</a>
+                    <a class="nav-link-new text-decoration-none text-white mt-3" href="#">អំពីសេវាកម្ម</a>
+                    <a class="nav-link-new text-decoration-none text-white mt-3" href="#">ការណែនាំ</a>
+                  </li>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-4 mb-4 align-content-start">
+            <div class="box text-start">
+              <h3 class="text-primary ">ទំនាក់ទំនង</h3>
+              <div class="main-box text-start" style="width: 270px ; padding: 5px;">
+                <li class="list-unstyled d-block text-start">
+                  <a class="nav-link-new text-decoration-none text-white mt-4" href="#"><i class="fa-solid fa-location-dot"></i> ភ្នំពេញ</a><br>
+                  <a class="nav-link-new text-decoration-none text-white mt-4" href="#"><i class="fa-solid fa-phone"></i> +855 96 123 11</a><br>
+                  <a class="nav-link-new text-decoration-none text-white mt-4" href="#"><i class="fa-solid fa-envelope"></i> Thekautocar@gmail.com</a>
+                  <a class="nav-link text-decoration-none text-white mt-3 fs-5" href="#">
+                    <i class="fa-brands fa-facebook "></i>
+                    <i class="fa-brands fa-telegram ms-2"></i>
+                    <i class="fa-brands fa-x-twitter ms-2"></i>
+                  </a>
+                </li>
+            </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-4 mb-4">
+            <div class="box text-start text-primary">
+              <h3>ទាញយកកម្មវិធីឥឡូវនេះ</h3>
+              <div class="row">
+                  <a class="d-flex align-content-start" href="#">
+                    <div class="playstore" style="width: 200px; ">
+                      <img src="http://antstudents.com/WebScholarshipS2/Group-18/ProjectCSS_CamEZgo/assets/img/download-app/app-store.svg" alt="">
+                    </div>
+                    
+                  </a>
+                  <a class="d-flex align-content-start" href="#">
+                    <div class="playstore" style="width: 200px;margin-top: 5px;">
+                      <img src="http://antstudents.com/WebScholarshipS2/Group-18/ProjectCSS_CamEZgo/assets/img/download-app/play-store.svg" alt="">
+                    </div>
+                  </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-4 mb-4">
+            <div class="container ">
+              <div class="row d-flex justify-content-between gap-2">
+                <div class="col-12 col-md-6 footer">
+                  <h3 class="text-start text-primary">Address</h3>
+                  <div class="addr d-flex justify-content-start">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.7186053823334!2d104.88750717481736!3d11.572018988629287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109519e0c9b2109%3A0x8b8d35d80b920ffc!2sANT%20Technology%20Training%20School!5e0!3m2!1sen!2skh!4v1726648340000!5m2!1sen!2skh" width="200" height="160" style="border:0;border-radius: 5px;margin-left: 1%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  </div>
+                </div> 
+              </div>
+            </div> 
+          </div>
+          </div>
+        
+
+          <hr style="color: white; height: 20px;">
+      </div>
+      
+      <div class="foot" style="margin-top:-3%;">
+      <p class="text-center text-white p-1">@រក្សាសិទ្ធគ្រប់យ៉ាងដោយ ដឹខេ អូតូខារ | The K-AutoCar</p>
+     </div>
+
+   
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+
+</html>
+
